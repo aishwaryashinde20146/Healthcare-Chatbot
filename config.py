@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # API Keys
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', 'AIzaSyA6OlvhK_yoncKNe5Su_EYy9Z3AAqV9rbg')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
 
 # Flask configuration
 DEBUG = True
